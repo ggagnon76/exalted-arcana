@@ -1,5 +1,5 @@
 import { hasDependencies } from "./module-dependencies.js";
-import { monitorSpellCasting } from "./spell-active-effects.js"
+import { monitorSpellCasting } from "./spell-active-effect.js"
 
 Hooks.on('ready', () => {
   if (!hasDependencies()) return;
