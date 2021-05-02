@@ -15,7 +15,12 @@
     }
   ],
   "dependencies": [
-
+    {
+      "name": "betterrolls5e"
+    },
+    {
+      "name": "socketlib"
+    }
   ],
   "conflicts": [
     
@@ -37,5 +42,6 @@
   "download": "This is auto replaced",
   "media": [
     
-  ]
+  ],
+  "socket": true
 }

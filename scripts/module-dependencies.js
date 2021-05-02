@@ -1,6 +1,6 @@
 export function hasDependencies() {
   // dependencies is an array of all the modules that have to be installed and activated for this module to proceed.
-  const dependencies = ["betterrolls5e"];
+  const dependencies = ["betterrolls5e", "socketlib"];
 
   const notInstalled = [];
   const notActivated = [];
