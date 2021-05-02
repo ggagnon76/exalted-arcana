@@ -58,7 +58,7 @@ export function monitorSpellCasting() {
   })
 
   function applyEffects(targetArray) {
-    let paralyzed = CONFIG.statusEffects.find(effect => (effect.id === "paralysis"));
+    let paralyzed = CONFIG.statusEffects.find(effect => (effect.id === "combat-utility-belt.paralyzed"));
     for (const target of targetArray) {
       const tok = canvas.tokens.get(target);
       tok.toggleEffect(paralyzed, {active: true});
