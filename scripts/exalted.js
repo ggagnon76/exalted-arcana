@@ -7,5 +7,3 @@ Hooks.on('ready', () => {
 })
 
 monitorSpellCasting();
-
-

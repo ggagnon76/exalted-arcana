@@ -1,0 +1,684 @@
+[
+    {
+        "name": "Blade Ward",
+        "self": true,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "blade-ward",
+        "level": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "Guidance",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "guidance",
+        "level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Resistance",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "resistance",
+        "level": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Shillelagh",
+        "self": true,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "shillelagh",
+        "level": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "Armor of Agathys",
+        "self": true,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "armor-of-agathys",
+        "level": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "Bless",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "bless",
+        "level": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "name": "Divine Favor",
+        "self": true,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "divine-favor",
+        "level": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "Expeditious Retreat",
+        "self": true,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "expeditious-retreat",
+        "level": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "Gift of Alacrity",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "gift-of-alacrity",
+        "level": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Heroism",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "heroism",
+        "level": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "name": "Mage Armor",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "mage-armor",
+        "level": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Protection from Evil and Good",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "protected-from-evil-and-good",
+        "level": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Sanctuary",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "sanctuary",
+        "level": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Shield",
+        "self": true,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "shield",
+        "level": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "Shield of Faith",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "shield-of-faith",
+        "level": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Barkskin",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "barkskin",
+        "level": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Blur",
+        "self": true,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "blur",
+        "level": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "Enhance Ability",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "enhanced-ability",
+        "level": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ]
+    },
+    {
+        "name": "Enlarge/Reduce",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": true,
+            "type": "con"
+        },
+        "effect": "enlarge/reduce",
+        "level": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Invisibility",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "invisible",
+        "level": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ]
+    },
+    {
+        "name": "Magic Weapon",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "magic-weapon",
+        "level": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Protection from Poison",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "protection-from-poison",
+        "level": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Spider Climb",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "spider-climb",
+        "level": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Warding Bond",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "warding-bond",
+        "level": [
+            0,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "name": "Blink",
+        "self": true,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "blink",
+        "level": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "name": "Elemental Weapon",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "elemental-weapon",
+        "level": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Fly",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "fly",
+        "level": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "name": "Haste",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "haste",
+        "level": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Intellect Fortress",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "intellect-fortress",
+        "level": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "name": "Nondetection",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "nondetection",
+        "level": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Protection from Energy",
+        "self": false,
+        "attack": {},
+        "save": {
+            "isSave": false,
+            "type": ""
+        },
+        "effect": "protection-from-energy",
+        "level": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    }
+]
