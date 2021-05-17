@@ -43,7 +43,7 @@ export function monitorSpellCasting() {
   }
 
   function applyEffects(targetArray, effect) {
-    const configEffect = CONFIG.statusEffects.find(effect => (effect.id === "combat-utility-belt." + effect));
+    const configEffect = CONFIG.statusEffects.find(e => (e.id === `combat-utility-belt.${effect}`));
     for (const target of targetArray) {
       const tok = canvas.tokens.get(target);
       tok.toggleEffect(configEffect, {active: true});
