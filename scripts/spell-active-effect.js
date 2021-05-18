@@ -25,7 +25,10 @@ export function monitorSpellCasting() {
       if (!game.user.isGM) {
         socket.executeAsGM("applyEffects", targetIdsArray, spell.effect);
         return true;
-      } else applyEffects(targetIdsArray, spell.effect)
+      } else {
+        applyEffects(targetIdsArray, spell.effect)
+        return true;
+      }
     }
     return false;
   }
