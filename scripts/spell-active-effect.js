@@ -17,19 +17,19 @@ export function monitorSpellCasting() {
     const targets = [...selectedTargets];
     if (!spell.self && targets.length !== 0) {
       const targetIdsArray = [];
-      if (!spell.self) {
-        for (const target of targets) {
-          targetIdsArray.push(target.id)}
-      } else targetIdsArray.push(actorId);
-      if (!game.user.isGM) {
-        socket.executeAsGM("applyEffects", targetIdsArray, spell.effect);
-        return true;
-      } else {
-        applyEffects(targetIdsArray, spell.effect);
-        return true;
+      for (const target of targets) {
+        targetIdsArray.push(target.id);
       }
     }
-    return false;
+    if (spell.self) targetIdsArray.push(actorId);
+    if (targetIdsArray.length === 0) return false;
+    if (!game.user.isGM) {
+      socket.executeAsGM("applyEffects", targetIdsArray, spell.effect);
+      return true;
+    } else {
+      applyEffects(targetIdsArray, spell.effect);
+      return true;
+    }
   }
   
   async function eaChatCard(myActor, myActorId, content = "") {
