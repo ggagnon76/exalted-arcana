@@ -8,24 +8,26 @@ export function monitorSpellCasting() {
     const myActor = Object.keys(cm.data.flags["exalted-arcana"])[0];
     const myActorId = cm.data.flags["exalted-arcana"][myActor];
     await cm.delete();
-    if (queryTargets()) return
+    if (queryTargets(myActorId)) return
     eaChatCard(myActor, myActorId, `<p>You didn't select any targets!</p><p>Double-Right-Click to select the first target.</p><p>Shift+(Double-Right-Click) to select more.</p>`);
   })
   
-  function queryTargets() {
-    if (spell.self) return true;
+  function queryTargets(actorId) {
     const selectedTargets = game.user.targets;
     const targets = [...selectedTargets];
-    if (targets.length !== 0) {
-      // To-Do: check for allowed target qty per slot level
+    if (!spell.self && targets.length !== 0) {
       const targetIdsArray = [];
-      for (const target of targets) {
-        targetIdsArray.push(target.id)
-      }
+      if (!spell.self) {
+        for (const target of targets) {
+          targetIdsArray.push(target.id)}
+      } else targetIdsArray.push(actorId);
       if (!game.user.isGM) {
         socket.executeAsGM("applyEffects", targetIdsArray, spell.effect);
         return true;
-      } else applyEffects(targetIdsArray, spell.effect)
+      } else {
+        applyEffects(targetIdsArray, spell.effect);
+        return true;
+      }
     }
     return false;
   }
@@ -84,7 +86,7 @@ export function monitorSpellCasting() {
 
     if (!spell) return ui.notifications.info("Not a spell we're watching for.");
 
-    if (queryTargets()) return
+    if (queryTargets(myActorId)) return
 
     await new Promise(resolve => setTimeout(resolve, 200));
     eaChatCard(myActor, myActorId);
