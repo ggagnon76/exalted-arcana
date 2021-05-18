@@ -15,8 +15,8 @@ export function monitorSpellCasting() {
   function queryTargets(actorId) {
     const selectedTargets = game.user.targets;
     const targets = [...selectedTargets];
+    const targetIdsArray = [];
     if (!spell.self && targets.length !== 0) {
-      const targetIdsArray = [];
       for (const target of targets) {
         targetIdsArray.push(target.id);
       }
